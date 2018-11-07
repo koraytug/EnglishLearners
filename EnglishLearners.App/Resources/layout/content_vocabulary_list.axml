@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<LinearLayout android:gravity="center" android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+        <TextView android:layout_width="wrap_content"  android:layout_height="wrap_content" android:textSize="50px" android:text="Add New Word"/>
+    <EditText android:layout_width="match_parent" android:id="@+id/title" android:layout_height="wrap_content" android:hint="Please Enter A Title"/>
+    <EditText android:layout_width="match_parent" android:id="@+id/def" android:layout_height="wrap_content" android:hint="Please Enter A Definition"/>
+    <EditText android:layout_width="match_parent" android:id="@+id/type" android:layout_height="wrap_content" android:hint="Please Enter A Type"/>
+    <Button android:id="@+id/btn" android:layout_width="match_parent"   android:layout_height="wrap_content" android:text="Save"/>
 </LinearLayout>

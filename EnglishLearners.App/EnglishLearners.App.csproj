@@ -54,11 +54,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapters\VocabularyRecyclerAdapter.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Models\VocabularyModel.cs" />
     <Compile Include="Repositories\VocabularyRepository.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -110,6 +110,9 @@
     <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView">
       <Version>27.0.2.1</Version>
     </PackageReference>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.2.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\vocabulary_list.axml">
@@ -127,6 +130,12 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DataFlow\DataFlow.csproj">
+      <Project>{365F870C-6A58-41BE-BA7D-4F34D3E92E5D}</Project>
+      <Name>DataFlow</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,25 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-
-namespace EnglishLearners.App.Models
+namespace DataFlow
 {
     public class VocabularyModel
     {
-        public int VocabularyId
+        public Guid VocabularyId
         {
             get;
             set;
         }
-
         public string Title
         {
             get;

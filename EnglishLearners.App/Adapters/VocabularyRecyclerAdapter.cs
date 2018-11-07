@@ -3,8 +3,8 @@ using Android.Views;
 using Android.Widget;
 using Android.Support.V7.Widget;
 using Android.Content;
-using EnglishLearners.App.Models;
 using System.Collections.Generic;
+using DataFlow;
 
 namespace EnglishLearners.App.Adapters
 {
@@ -14,11 +14,8 @@ namespace EnglishLearners.App.Adapters
         //public event EventHandler<VocabularyRecyclerAdapterClickEventArgs> ItemLongClick;
         //string[] items;
         public List<VocabularyModel> mVacabularies;
-
         public Context mContext;
         public LayoutInflater mLayoutInflater;
-
-
         public VocabularyRecyclerAdapter(List<VocabularyModel> vacabularies, Context context)
         {
             mVacabularies = vacabularies;

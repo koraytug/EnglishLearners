@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishLearners.App", "EnglishLearners.App\EnglishLearners.App.csproj", "{F214B4DA-0C9B-4DA2-8C43-59EA33C1E9F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFlow", "DataFlow\DataFlow.csproj", "{365F870C-6A58-41BE-BA7D-4F34D3E92E5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{F214B4DA-0C9B-4DA2-8C43-59EA33C1E9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F214B4DA-0C9B-4DA2-8C43-59EA33C1E9F8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F214B4DA-0C9B-4DA2-8C43-59EA33C1E9F8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{365F870C-6A58-41BE-BA7D-4F34D3E92E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365F870C-6A58-41BE-BA7D-4F34D3E92E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365F870C-6A58-41BE-BA7D-4F34D3E92E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365F870C-6A58-41BE-BA7D-4F34D3E92E5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
