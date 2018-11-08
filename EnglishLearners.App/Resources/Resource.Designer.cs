@@ -2452,89 +2452,113 @@ namespace EnglishLearners.App
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02006a
-			public const int avd_hide_password_1 = 2130837610;
+			// aapt resource value: 0x7f020072
+			public const int avd_hide_password_1 = 2130837618;
 			
-			// aapt resource value: 0x7f02006b
-			public const int avd_hide_password_2 = 2130837611;
+			// aapt resource value: 0x7f020073
+			public const int avd_hide_password_2 = 2130837619;
 			
-			// aapt resource value: 0x7f02006c
-			public const int avd_hide_password_3 = 2130837612;
+			// aapt resource value: 0x7f020074
+			public const int avd_hide_password_3 = 2130837620;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02006d
-			public const int avd_show_password_1 = 2130837613;
+			// aapt resource value: 0x7f020075
+			public const int avd_show_password_1 = 2130837621;
 			
-			// aapt resource value: 0x7f02006e
-			public const int avd_show_password_2 = 2130837614;
+			// aapt resource value: 0x7f020076
+			public const int avd_show_password_2 = 2130837622;
 			
-			// aapt resource value: 0x7f02006f
-			public const int avd_show_password_3 = 2130837615;
+			// aapt resource value: 0x7f020077
+			public const int avd_show_password_3 = 2130837623;
 			
 			// aapt resource value: 0x7f020055
-			public const int design_bottom_navigation_item_background = 2130837589;
+			public const int baseline_close_black_18dp = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int design_fab_background = 2130837590;
+			public const int baseline_delete_forever_black_18dp = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int design_ic_visibility = 2130837591;
+			public const int baseline_edit_black_18dp = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int design_ic_visibility_off = 2130837592;
+			public const int baseline_menu_black_18dp = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int design_password_eye = 2130837593;
+			public const int baseline_menu_black_48dp = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_snackbar_background = 2130837594;
+			public const int baseline_navigate_before_black_18dp = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int navigation_empty_icon = 2130837595;
+			public const int baseline_navigate_next_black_18dp = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int notification_action_background = 2130837596;
+			public const int baseline_save_black_18dp = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int notification_bg = 2130837597;
+			public const int design_bottom_navigation_item_background = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int notification_bg_low = 2130837598;
+			public const int design_fab_background = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int notification_bg_low_normal = 2130837599;
+			public const int design_ic_visibility = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int notification_bg_low_pressed = 2130837600;
+			public const int design_ic_visibility_off = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int notification_bg_normal = 2130837601;
+			public const int design_password_eye = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int notification_bg_normal_pressed = 2130837602;
+			public const int design_snackbar_background = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_icon_background = 2130837603;
-			
-			// aapt resource value: 0x7f020068
-			public const int notification_template_icon_bg = 2130837608;
-			
-			// aapt resource value: 0x7f020069
-			public const int notification_template_icon_low_bg = 2130837609;
+			public const int navigation_empty_icon = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int notification_tile_bg = 2130837604;
+			public const int notification_action_background = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int notify_panel_notification_icon_bg = 2130837605;
+			public const int notification_bg = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int tooltip_frame_dark = 2130837606;
+			public const int notification_bg_low = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int tooltip_frame_light = 2130837607;
+			public const int notification_bg_low_normal = 2130837607;
+			
+			// aapt resource value: 0x7f020068
+			public const int notification_bg_low_pressed = 2130837608;
+			
+			// aapt resource value: 0x7f020069
+			public const int notification_bg_normal = 2130837609;
+			
+			// aapt resource value: 0x7f02006a
+			public const int notification_bg_normal_pressed = 2130837610;
+			
+			// aapt resource value: 0x7f02006b
+			public const int notification_icon_background = 2130837611;
+			
+			// aapt resource value: 0x7f020070
+			public const int notification_template_icon_bg = 2130837616;
+			
+			// aapt resource value: 0x7f020071
+			public const int notification_template_icon_low_bg = 2130837617;
+			
+			// aapt resource value: 0x7f02006c
+			public const int notification_tile_bg = 2130837612;
+			
+			// aapt resource value: 0x7f02006d
+			public const int notify_panel_notification_icon_bg = 2130837613;
+			
+			// aapt resource value: 0x7f02006e
+			public const int tooltip_frame_dark = 2130837614;
+			
+			// aapt resource value: 0x7f02006f
+			public const int tooltip_frame_light = 2130837615;
 			
 			static Drawable()
 			{
@@ -2660,6 +2684,18 @@ namespace EnglishLearners.App
 			// aapt resource value: 0x7f08009a
 			public const int btn = 2131230874;
 			
+			// aapt resource value: 0x7f0800c6
+			public const int btn_iptal = 2131230918;
+			
+			// aapt resource value: 0x7f0800c5
+			public const int btn_kaydet = 2131230917;
+			
+			// aapt resource value: 0x7f0800c4
+			public const int btn_menu = 2131230916;
+			
+			// aapt resource value: 0x7f0800c7
+			public const int btn_sil = 2131230919;
+			
 			// aapt resource value: 0x7f080070
 			public const int buttonPanel = 2131230832;
 			
@@ -2765,6 +2801,9 @@ namespace EnglishLearners.App
 			// aapt resource value: 0x7f08007f
 			public const int expanded_menu = 2131230847;
 			
+			// aapt resource value: 0x7f0800c1
+			public const int fab = 2131230913;
+			
 			// aapt resource value: 0x7f080050
 			public const int fill = 2131230800;
 			
@@ -2834,11 +2873,11 @@ namespace EnglishLearners.App
 			// aapt resource value: 0x7f08006e
 			public const int list_item = 2131230830;
 			
-			// aapt resource value: 0x7f0800bf
-			public const int list_vocabulary = 2131230911;
+			// aapt resource value: 0x7f0800c0
+			public const int list_vocabulary = 2131230912;
 			
-			// aapt resource value: 0x7f0800c1
-			public const int masked = 2131230913;
+			// aapt resource value: 0x7f0800c3
+			public const int masked = 2131230915;
 			
 			// aapt resource value: 0x7f0800b1
 			public const int media_actions = 2131230897;
@@ -3116,11 +3155,14 @@ namespace EnglishLearners.App
 			// aapt resource value: 0x7f080026
 			public const int useLogo = 2131230758;
 			
+			// aapt resource value: 0x7f0800bf
+			public const int vacabulary_list_toolbar = 2131230911;
+			
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800c0
-			public const int visible = 2131230912;
+			// aapt resource value: 0x7f0800c2
+			public const int visible = 2131230914;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3389,17 +3431,54 @@ namespace EnglishLearners.App
 			}
 		}
 		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int menu_vacabulary = 2131623936;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
+			{
+			}
+		}
+		
 		public partial class Mipmap
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int ic_launcher = 2130903040;
+			public const int baseline_close_black_18dp = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int ic_launcher_foreground = 2130903041;
+			public const int baseline_delete_forever_black_18dp = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ic_launcher_round = 2130903042;
+			public const int baseline_edit_black_18dp = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int baseline_menu_black_18dp = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int baseline_navigate_before_black_18dp = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int baseline_navigate_next_black_18dp = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int baseline_save_black_18dp = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int ic_launcher = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int ic_launcher_foreground = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int ic_launcher_round = 2130903049;
 			
 			static Mipmap()
 			{

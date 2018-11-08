@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
@@ -11,7 +9,7 @@ using DataFlow;
 using Android.Views;
 using EnglishLearners.App.Adapters;
 using EnglishLearners.App.Repositories;
-using System.Collections.Generic;
+using Android.Support.Design.Widget;
 
 namespace EnglishLearners.App
 {
@@ -46,10 +44,19 @@ namespace EnglishLearners.App
             recyclerVocabulary.SetLayoutManager(listLayoutManager);
             VocabularyRepository vocabularyRepository = new VocabularyRepository();
             List<VocabularyModel> vocabularies = helper.GetData(db_path);
-            VocabularyRecyclerAdapter vocabularyRecyclerAdapter = new VocabularyRecyclerAdapter(vocabularies, this);
+            VocabularyRecyclerAdapter vocabularyRecyclerAdapter=null;
+            if (vocabularies.Count==0)
+            {
+                VocabularyRepository vocabulary = new VocabularyRepository();
+                vocabularyRecyclerAdapter = new VocabularyRecyclerAdapter(vocabulary.getVocabularies(), this);
+            }
+            else
+            {
+                vocabularyRecyclerAdapter = new VocabularyRecyclerAdapter(vocabularies, this);
+            }
             mVocabularyRecyclerAdapter = vocabularyRecyclerAdapter;
             recyclerVocabulary.SetAdapter(mVocabularyRecyclerAdapter);
-
+            this.FindViewById<Android.Support.Design.Widget.FloatingActionButton>(Resource.Id.fab).Click += this.FabClick;
             var toolbar = FindViewById<Toolbar>(Resource.Id.vacabulary_list_toolbar);
             SetSupportActionBar(toolbar);
             SupportActionBar.Title = "Your Vocabularies";
@@ -63,8 +70,6 @@ namespace EnglishLearners.App
         }
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
-
-
             int id = item.ItemId;
             //string strMessage = "";
 
@@ -88,6 +93,17 @@ namespace EnglishLearners.App
                     Android.Widget.ToastLength.Short).Show();
             return base.OnOptionsItemSelected(item);
         }
+        public void FabClick(object sender, EventArgs e)
+        {
+            StartActivity(typeof(VocabularyEditorActivity));
+        }
+        private void FabOnClick(object sender, EventArgs eventArgs)
+        {
+            View view = (View)sender;
+            Snackbar.Make(view, "Replace with your own action", Snackbar.LengthLong)
+                .SetAction("Action", (Android.Views.View.IOnClickListener)null).Show();
+        }
+
         #endregion
     }
 }

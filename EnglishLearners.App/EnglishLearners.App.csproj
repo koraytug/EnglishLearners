@@ -122,6 +122,7 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
+
   <ItemGroup>
     <AndroidResource Include="Resources\layout\content_vocabulary_list.axml">
       <SubType>Designer</SubType>
@@ -132,12 +133,14 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
-  <ItemGroup />
+  
   <ItemGroup>
     <ProjectReference Include="..\DataFlow\DataFlow.csproj">
       <Project>{365F870C-6A58-41BE-BA7D-4F34D3E92E5D}</Project>
       <Name>DataFlow</Name>
     </ProjectReference>
+    </ItemGroup>
+    
   <ItemGroup>
     <AndroidResource Include="Resources\menu\menu_vacabulary.xml" />
   </ItemGroup>
